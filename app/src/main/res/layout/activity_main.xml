@@ -29,6 +29,7 @@
     </LinearLayout>
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -43,13 +44,14 @@
         android:textColorHint="#d3d3d3"
         />
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:backgroundTint="#d3d3d3"
-        android:hint="Username or Email"
+        android:hint="Password"
         android:inputType="textEmailAddress"
         android:maxLines="1"
         android:padding="10dp"
@@ -69,6 +71,7 @@
         android:textColor="#ffffff"
         android:textSize="16sp"
         android:textStyle="bold"
+        android:onClick="onLogin"
         />
     <RelativeLayout
         android:layout_width="match_parent"
